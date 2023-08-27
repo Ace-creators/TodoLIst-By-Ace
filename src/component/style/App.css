@@ -1,0 +1,100 @@
+body{
+    font-family: montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+
+
+.App{
+    margin: 1rem;
+    width: 360px;
+    min-height: 250px;
+    padding-inline: 10px;
+    padding-block: 20px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+.title{
+    margin-top: -35px;
+    text-align: center;
+}
+
+.title > h1 > span{
+    color: #fff;
+    width: 100px;
+    height: 200px;
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+.inputdiv{
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+.inputdiv > input{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-family: montserrat;
+    padding-inline: 10px;
+    margin-right: 10px;
+    background-color: #eeeeee;
+    border-bottom: 1.5px solid;
+    padding-bottom: -10px;
+   
+}
+
+ul > span{
+    margin-left: -10px;
+    font-size: 1.5rem;
+    color: #1e1e1e;
+}
+.inputdiv > button{
+    border: none;
+    font-family: montserrat;
+    background-color: #0ab32f;
+    font-size: 1rem;
+    color: #fff;
+    padding-inline:15px;
+    padding-block: 7px;
+    border-radius: 4px;
+
+}
+
+.items{
+    width: 100%;
+    margin-left:-25px;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    box-shadow: 1px 1px 5px rgba(0,0 , 0, 0.7) ;
+    border-radius: 5px;
+}
+.items > p{
+    margin-left: 10px
+}
+.items > button{
+    margin-right: 10px
+}
+
+
+.items > button{
+    border: none;
+    font-family: montserrat;
+    background-color: #f72f2f;
+    font-size: 1rem;
+    color: #fff;
+    padding-inline:5px;
+    padding-block: 7px;
+    border-radius: 4px;
+
+}
+
